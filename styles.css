@@ -1,0 +1,138 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f4f7;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Search container styles */
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-container label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.search-container input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* Form styles */
+.add-student-form, #newStudentForm {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-student-form h2, #newStudentForm h2 {
+    margin-bottom: 20px;
+    color: #2980b9;
+    text-align: center;
+}
+
+.add-student-form label, #newStudentForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.add-student-form input[type="text"],
+.add-student-form input[type="date"],
+.add-student-form input[type="number"],
+#newStudentForm input[type="text"],
+#newStudentForm input[type="date"],
+#newStudentForm input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset;
+}
+
+.add-student-form input[type="submit"],
+#newStudentForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.add-student-form input[type="submit"]:hover,
+#newStudentForm input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Student information table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding shadow for a card-like effect */
+}
+
+/* Table header */
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table data */
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; /* Centering the image */
+}
+
+/* Table rows hover effect */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
